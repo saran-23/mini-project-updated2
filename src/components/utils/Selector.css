@@ -1,0 +1,52 @@
+.top-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1000px) {
+    .top-div {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+.section-div {
+    width: 33%;
+    padding: 20px;
+}
+
+.selected-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; 
+    background-color: #ebc2ff;
+    border-radius: 8px;
+    border-color: yellowgreen;
+    border-style: solid;
+    border-width: 2px; 
+}
+
+.deselected-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; 
+    background-color: rgb(141,217,252);;
+    border-radius: 8px;
+}
+.deselected-div :hover{
+    color: #212121;
+}
+.deselected-div :hover:before{      
+    transform: rotateX(90deg);
+
+}
+.deselected-div:hover:after{
+    transform: rotateY(90deg);
+}
+
+.deselected-text {
+    font-weight: bold;
+    font-weight: 500;
+    color: gold;
+}
