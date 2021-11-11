@@ -14,9 +14,6 @@ Object Detection on the browser using Tensorflow.js
 Install Node.js 
 
 ### Instructions
-
-Codel", which contains the model.json, label.json and the shard files.
-
 Run the project
 ```bash
 npm start
