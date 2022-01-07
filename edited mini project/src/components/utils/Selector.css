@@ -1,0 +1,74 @@
+.top-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1000px) {
+    .top-div {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+.section-div {
+    width: 33%;
+    padding: 20px;
+}
+
+.selected-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; 
+    background-color: #ffffff;
+    border-radius: 88px;
+    border-color: green;
+    border-style: solid;
+    border-width: 2px; 
+}
+
+.deselected-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; 
+    background-color: rgb(14, 14, 14);
+    /* background-color:red; */
+    border-radius: 8px;
+}
+.deselected-div :hover{
+     color: peru;
+}
+.deselected-div :hover:before{      
+    transform: rotateX(90deg);
+
+}
+.deselected-div:hover:after{
+    transform: rotateY(90deg);
+}
+
+.deselected-text {
+    font-weight: bold;
+    font-weight: 500;
+    color: white;
+}
+
+
+.saran {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+.saran {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .saran:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
